@@ -1,0 +1,24 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "the chat like Slack",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "start-server -s ./frontend/build",
+    "test": "npx -n --experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soyer1310/frontend-project-12.git"
+  },
+  "author": "Artem Melnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soyer1310/frontend-project-12/issues"
+  },
+  "homepage": "https://github.com/Soyer1310/frontend-project-12#readme",
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.6"
+  }
+}
